@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# User projects (keep the folder itself)
+projects/*
+!projects/.gitkeep
+
+# Runtime and derived artifacts anywhere
+live_preview/
+preview/
+exports/
+backup/
+
+# Word lock files and OS noise
+~$*
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
